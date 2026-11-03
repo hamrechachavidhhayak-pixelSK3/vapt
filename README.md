@@ -42,43 +42,6 @@
 
 ---
 
-## Question Index (CO / PO / RBT)
-
-| Q.No | Topic | CO | PO | RBT Level |
-|---|---|---|---|---|
-| 1 | Definitions (organising, span, departmentalisation, staffing, recruitment) | CO4 | PO1 | L1 |
-| 2 | Five bases of departmentalisation | CO4 | PO1 | L1 |
-| 3 | Five stages of staffing | CO4 | PO1 | L1 |
-| 4 | Meaning and process of organising | CO4 | PO1 | L2 |
-| 5 | Span of management and its factors | CO4 | PO1, PO2 | L2 |
-| 6 | Tall vs. flat structures | CO4 | PO1, PO2 | L2 |
-| 7 | Functional departmentalisation | CO4 | PO1 | L2 |
-| 8 | Product (divisional) departmentalisation | CO4 | PO1 | L2 |
-| 9 | Geographic and customer departmentalisation | CO4 | PO1 | L2 |
-| 10 | Line vs. line-and-staff structure | CO4 | PO1, PO3 | L2 |
-| 11 | Authority, responsibility, accountability | CO4 | PO1, PO9 | L2 |
-| 12 | Delegation of authority | CO4 | PO1, PO9 | L2 |
-| 13 | Centralisation vs. decentralisation | CO4 | PO1, PO2 | L2 |
-| 14 | Manpower planning | CO4 | PO1, PO11 | L2 |
-| 15 | Sources of recruitment | CO4 | PO1, PO2 | L2 |
-| 16 | Selection process | CO4 | PO1, PO2 | L2 |
-| 17 | Placement and induction | CO4 | PO1, PO10 | L2 |
-| 18 | Organisation chart (120 employees) | CO4 | PO3, PO10 | L3 |
-| 19 | Span: 25 packers vs. 5 scientists | CO4 | PO2 | L3 |
-| 20 | Departmentalisation for a 4-state retailer | CO4 | PO2, PO3 | L3 |
-| 21 | Faulty delegation of a report | CO4 | PO2, PO9 | L3 |
-| 22 | Staffing case study | CO4 | PO2, PO10 | L3 |
-| 23 | Manpower calculation (faculty) | CO4 | PO2, PO11 | L3 |
-| 24 | Selection for a production supervisor | CO4 | PO2, PO3 | L3 |
-| 25 | Span of 5 vs. 10 for 1,000 operatives | CO4 | PO2, PO11 | L4 |
-| 26 | Line–staff conflict | CO4 | PO2, PO9, PO10 | L4 |
-| 27 | Internal vs. external plant manager | CO4 | PO2, PO9 | L4 |
-| 28 | Start-up: centralise or decentralise | CO4 | PO2, PO11 | L5 |
-| 29 | Evaluating hurried hiring | CO4 | PO2, PO6 | L5 |
-| 30 | Organisation and staffing plan (300 employees) | CO4 | PO2, PO3, PO11 | L6 |
-
----
-
 ## L1 – Remember
 
 ### Q1. Define the following terms with one suitable example each
