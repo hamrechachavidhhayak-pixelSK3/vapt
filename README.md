@@ -1,673 +1,907 @@
-# Intelligent Transportation Systems (ITS) – Exam Answers (Module 4 & 5)
+# Engineering Economics — Module 5: Organisation Structure and Staffing
+
+**Complete answers to the CO4 Question Bank (30 questions, 10 marks each)**
+
+> **Reference:** Tripathi & Reddy, *Principles of Management* (Chapters 7, 8 & 11)
+>
+> **CO4:** Able to apply management skills including staffing, directing, communication and leadership abilities to manage projects in various organizational settings.
+
+---
 
 ## Table of Contents
-1. [Q1. Selecting ITS Technologies for a Busy Urban Intersection](#q1-selecting-its-technologies-for-a-busy-urban-intersection)
-2. [Q2. Location-Specific and Use-Case Factors](#q2-location-specific-and-use-case-factors)
-3. [Q3. ITS in Developed and Developing Countries](#q3-its-in-developed-and-developing-countries)
-4. [Q4. Comparison, Challenges and Lessons for Indian Cities](#q4-comparison-challenges-and-lessons-for-indian-cities)
-5. [Q5. ITS for a Congested, Accident-Prone Highway Corridor](#q5-its-for-a-congested-accident-prone-highway-corridor)
-6. [Q6. Automated Highway Systems: Concept and Working](#q6-automated-highway-systems-concept-and-working)
-7. [Q7. AHS Benefits, Challenges and Applications](#q7-ahs-benefits-challenges-and-applications)
-8. [Q8. Site-Specific Conditions and Technology Selection](#q8-site-specific-conditions-and-technology-selection)
-9. [Q9. Vehicle Platooning: Principles and Role of Automation, Sensors, Communication](#q9-vehicle-platooning-principles-and-role-of-automation-sensors-communication)
-10. [Q10. Benefits and Challenges of Platooning](#q10-benefits-and-challenges-of-platooning)
-11. [Q11. Planning Framework for ITS at a Major Junction](#q11-planning-framework-for-its-at-a-major-junction)
-12. [Q12. Problem Identification to Outcome Evaluation](#q12-problem-identification-to-outcome-evaluation)
-13. [Q13. Planning, Standardizing, Implementing and Evaluating an ITS Project](#q13-planning-standardizing-implementing-and-evaluating-an-its-project)
-14. [Q14. Performance Evaluation with Case Studies](#q14-performance-evaluation-with-case-studies)
-15. [Quick Revision Table](#quick-revision-table)
+
+- [Quick Revision Notes](#quick-revision-notes)
+- [Question Index (CO / PO / RBT)](#question-index-co--po--rbt)
+- [L1 – Remember (Q1–Q3)](#l1--remember)
+- [L2 – Understand (Q4–Q17)](#l2--understand)
+- [L3 – Apply (Q18–Q24)](#l3--apply)
+- [L4 – Analyze (Q25–Q27)](#l4--analyze)
+- [L5 – Evaluate (Q28–Q29)](#l5--evaluate)
+- [L6 – Create (Q30)](#l6--create)
+- [Summary Tables](#summary-tables)
 
 ---
 
-# ITS – Last-Minute Revision (Module 4 & 5)
+## Quick Revision Notes
 
-## Table of Contents
-1. [Q1. Selecting ITS for a Busy Urban Intersection](#q1-selecting-its-for-a-busy-urban-intersection)
-2. [Q2. Factors for Selection](#q2-factors-for-selection)
-3. [Q3. ITS Around the World](#q3-its-around-the-world)
-4. [Q4. Comparison and Lessons for India](#q4-comparison-and-lessons-for-india)
-5. [Q5. Highway Corridor (Congestion + Accidents)](#q5-highway-corridor-congestion--accidents)
-6. [Q6. Automated Highway System (AHS)](#q6-automated-highway-system-ahs)
-7. [Q7. AHS Benefits, Challenges, Applications](#q7-ahs-benefits-challenges-applications)
-8. [Q8. Site Conditions Influence Selection](#q8-site-conditions-influence-selection)
-9. [Q9. Platooning Principles](#q9-platooning-principles)
-10. [Q10. Platooning Benefits and Challenges](#q10-platooning-benefits-and-challenges)
-11. [Q11. Junction Planning Framework](#q11-junction-planning-framework)
-12. [Q12. Four Steps](#q12-four-steps)
-13. [Q13. Project Stages](#q13-project-stages)
-14. [Q14. Performance Evaluation](#q14-performance-evaluation)
-15. [Memory Hooks](#memory-hooks)
-
-
----
-
-## Q1. Selecting ITS Technologies for a Busy Urban Intersection
-
-1. **Identify the problem:** long queues, delays, accidents, pedestrian conflicts, bus delays, poor signal timing.
-2. **Collect existing data:** traffic volume, turning movements, speed, queue length, delay, accident records (peak and off-peak).
-3. **Find the causes:** fixed signal timings, heavy turning traffic, bus stops near the junction, illegal parking, pedestrian crossings.
-4. **Define objectives:** reduce delay and queue length, improve pedestrian safety, give priority to buses.
-5. **Requirement analysis:**
-   - What data is needed (volume, queue, occupancy, classification)
-   - How often (real-time or periodic)
-   - Required accuracy
-   - Installation locations
-6. **Check existing infrastructure:** signals, CCTV, power supply, communication, Traffic Management Centre (TMC).
-7. **Select technologies by function:**
-   - **Detection:** video cameras (multi-lane, incident detection), inductive loops (accurate counts), radar (day and night)
-   - **Control:** adaptive traffic signal control
-   - **Public transport:** GPS/AVL and Transit Signal Priority (TSP)
-   - **Enforcement:** ANPR cameras
-   - **Information:** VMS and mobile apps
-   - **Communication:** fibre-optic to TMC, cellular backup
-8. **Evaluate options:** accuracy, reliability, life-cycle cost, maintenance, weather suitability, compatibility, cybersecurity, scalability.
-9. **Design the system:** hardware, software, and communication path (sensor → controller → TMC).
-10. **Pilot test** at one junction before expanding.
-11. **Evaluate performance:** before-after comparison of delay, queue, travel time, accidents.
-
----
-
-## Q2. Location-Specific and Use-Case Factors
-
-### Location-Specific Factors
-1. **Traffic characteristics:** volume, peak variation, mixed traffic (two-wheelers, autos, buses, cars), lane discipline.
-2. **Road geometry:** number of lanes, junction type, space for poles and cabinets.
-3. **Pavement condition:** poor or frequently dug roads make loops unsuitable; prefer cameras or radar.
-4. **Environment:** rain, dust, fog, heat, low light (radar handles bad weather better than cameras).
-5. **Power supply:** unreliable power needs UPS or solar backup.
-6. **Communication:** fibre in city centres; cellular or wireless where cabling is hard.
-7. **Pedestrians and public transport:** pedestrian detection; TSP on bus routes.
-8. **Existing infrastructure:** compatibility with current signals, CCTV, TMC.
-9. **Vandalism and security risk.**
-
-### Use-Case Factors
-1. **Purpose of data:** enforcement and signal control need high accuracy.
-2. **Coverage:** single lane (loops) vs wide area (cameras, radar).
-3. **Real-time vs periodic data.**
-4. **Output type:** counting, speed, classification, incidents, travel time (Bluetooth/GPS).
-5. **Budget and life-cycle cost:** installation, calibration, energy, communication, maintenance.
-6. **Maintenance capability** of local staff.
-7. **Privacy and cybersecurity** (ANPR, Bluetooth, GPS data).
-8. **Future expansion:** V2X, AI analytics, 5G.
-
----
-
-## Q3. ITS in Developed and Developing Countries
-
-### Developed Countries
-
-| Country | Main ITS Applications | Lesson |
-|---|---|---|
-| **United States** | ATMS, ATIS, ETC, incident management, intelligent signals, connected and automated vehicle research | Interoperability, standards, cybersecurity, agency coordination |
-| **Japan** | ETC, navigation, vehicle-infrastructure communication, traffic management | Integrate vehicles, roads and communication nationally |
-| **Singapore** | Electronic Road Pricing (ERP), intelligent signals, CCTV, public transport info | Combine technology with policy, pricing, land use, enforcement |
-| **South Korea** | Intelligent signals, bus information systems, ETC, Seoul control centres | Strong digital infrastructure and transit integration |
-| **Europe** | Cooperative ITS, tolling, smart parking, transit info, automated driving research | Common cross-border standards; link ITS with sustainability |
-
-### Developing Countries
-
-| Country/City | Main ITS Applications | Lesson |
-|---|---|---|
-| **India** | FASTag, CCTV, adaptive signals, ANPR, GPS bus tracking, VMS, TMCs | Phased introduction, high-priority first |
-| **Bengaluru** | Surveillance, signal management, BMTC GPS tracking, traveler info | Integrate systems rather than isolated deployments |
-| **China** | Large-scale signals, ETC, CCTV, auto-enforcement, data analytics | Strong digital infrastructure and central coordination |
-| **Brazil (São Paulo)** | Control centres, CCTV, traffic info, transit technology | Adapt ITS to complex traffic and income differences |
-
----
-
-## Q4. Comparison, Challenges and Lessons for Indian Cities
-
-### Comparison
-
-| Aspect | Developed Countries | Developing Countries |
-|---|---|---|
-| Approach | Large-scale, integrated | Phased, problem-focused, low-cost |
-| Focus | Safety, sustainability, connected vehicles | Congestion, tolling, enforcement, bus tracking |
-| Infrastructure | Strong communication and power | Limited or unreliable |
-| Traffic | Lane discipline, uniform | Mixed, unpredictable |
-| Funding | Higher | Limited |
-| Institutions | Mature, coordinated | Often fragmented |
-| Technology level | Advanced (V2X, AHS, platooning) | Basic to moderate |
-
-### Challenges
-**Developed:** cybersecurity, multi-agency coordination, cost of automation, mixed automated and conventional traffic.
-
-**Developing:** limited funding, unreliable power, weak communication, lack of skilled staff, fragmented agencies, poor maintenance, mixed traffic.
-
-### Lessons for Indian Cities
-1. **Problem-oriented, not technology-oriented.**
-2. **Integration over isolated systems** (CCTV linked to TMC; GPS linked to passenger info).
-3. **Phased implementation:** CCTV and signal coordination → adaptive signals and TSP → smart parking and AI.
-4. **Technology plus policy** (Singapore): pricing, parking policy, public transport, enforcement.
-5. **Strengthen public transport** (South Korea): real-time bus info and bus priority.
-6. **Standards and interoperability** to avoid vendor lock-in.
-7. **Reliable power and communication.**
-8. **Budget for maintenance:** a simple working system beats an advanced broken one.
-9. **Institutional coordination:** clear roles for police, municipality, transport department, operators.
-10. **Mixed-traffic-ready sensors and algorithms.**
-11. **Public awareness** about FASTag, apps, VMS.
-
----
-
-## Q5. ITS for a Congested, Accident-Prone Highway Corridor
-
-| Technology | Purpose | Justification |
-|---|---|---|
-| **Radar detectors** | Flow, speed, occupancy | Day/night and bad weather; no pavement cutting |
-| **CCTV with Automatic Incident Detection** | Detect accidents, stopped vehicles, wrong-way driving | Fast detection prevents secondary accidents |
-| **Variable Message Signs** | Warn about accidents, congestion, weather, diversions | High-speed drivers need early warnings |
-| **Incident Management System** | Detection → verification → response → recovery | Faster clearance and emergency response |
-| **Electronic Toll Collection (FASTag)** | Non-stop tolling | Removes toll-plaza queues |
-| **Ramp metering** | Control entry rate to highway | Prevents merging congestion; stable mainline flow |
-| **Road Weather Information System** | Fog, rain, visibility, pavement condition | Weather-related accident prevention |
-| **Variable speed limits / lane management** | Adjust speed by conditions | Reduces rear-end collisions |
-| **ANPR and speed enforcement** | Detect over-speeding | Improves discipline and safety |
-| **Weigh-in-Motion** | Detect overloaded trucks | Protects pavement and safety |
-| **Fibre-optic communication + cellular backup** | Connect field devices to TMC | High bandwidth for video, long-distance reliability |
-| **Traffic Management Centre** | Central monitoring and control | Coordinates all systems and emergency services |
-| **V2I / GPS warnings** | Hazard alerts to vehicles | Supports connected-vehicle safety |
-
-### Justification Summary
-- **Traffic conditions:** radar, ramp metering, ETC, VMS reduce congestion.
-- **Safety:** incident detection, RWIS, enforcement, variable speed limits reduce accidents.
-- **Operations:** TMC, fibre communication, WIM support management.
-- **Example:** Delhi–Meerut Expressway uses ETC, CCTV, communication networks, VMS, weather monitoring, and emergency response systems.
-
----
-
-## Q6. Automated Highway Systems: Concept and Working
-
-### Concept
-1. An **Automated Highway System (AHS)** provides **automated vehicle control**, mainly **longitudinal** (speed, braking, spacing) and sometimes **lateral** (steering, lane keeping), on **specially equipped roads**.
-2. Aim: increase **capacity**, improve **safety**, reduce **driver workload**.
-3. Vehicles may travel in **closely spaced groups (platoons)**.
-
-### Working Principles
-1. **Equipped vehicles:** radar, LiDAR, cameras, onboard computers, communication units, automated steering and speed control.
-2. **Equipped roadway:** roadside equipment and guidance infrastructure (e.g., road-embedded magnets used for steering guidance in the 1997 San Diego demo).
-3. **Sensing:** distance and speed of the vehicle ahead, lane position, obstacles.
-4. **Communication:** V2V (speed, braking) and V2I (road and traffic information).
-5. **Automated control:** onboard computer controls acceleration, braking, steering to keep small, safe gaps.
-6. **Coordinated movement:** reduced headways increase lane capacity.
-7. **Transition:** driver hands over control on entry and takes it back on exit.
-8. **Fail-safe operation** during sensor or communication failure.
-
----
-
-## Q7. AHS Benefits, Challenges and Applications
-
-### Benefits
-1. Higher highway capacity through shorter gaps.
-2. Improved safety by reducing human error.
-3. Reduced driver workload and fatigue.
-4. Smoother traffic flow.
-5. Fuel savings and lower emissions.
-6. Better use of existing roads.
-
-### Challenges
-1. High cost of roads and vehicle equipment.
-2. Special infrastructure requirements.
-3. Vehicle compatibility across manufacturers.
-4. **Mixed traffic transition** (biggest challenge).
-5. Safety certification and fail-safe design.
-6. Liability in accidents.
-7. Legal and regulatory frameworks.
-8. Communication reliability and cybersecurity.
-9. Public acceptance.
-
-### Case Studies
-- **US National AHS Consortium (1990s):** proved technical feasibility; deployment blocked by cost, legal, and transition issues.
-- **I-15, San Diego, California:** vehicles kept controlled spacing in coordinated groups, showing capacity gains from reduced headways.
-
-### Applications in Modern Transportation
-1. Connected and Automated Vehicles (CAV) on normal roads.
-2. Truck platooning on freight corridors.
-3. ACC and CACC in modern cars.
-4. Lane-keeping assist and driver-assistance systems.
-5. Dedicated lanes for automated buses or freight.
-6. V2X-based cooperative driving.
-
----
-
-## Q8. Site-Specific Conditions and Technology Selection
-
-### How Site Conditions Influence Selection
-1. **Mixed traffic** → video analytics that classify two-wheelers and autos.
-2. **Variable demand** → adaptive signals.
-3. **Poor or frequently dug pavement** → cameras or radar instead of loops.
-4. **Fog and rain** → radar; **low light** → infrared.
-5. **Limited space** → compact sensors.
-6. **No fibre** → cellular/wireless; **unreliable power** → solar/UPS.
-7. **Heavy bus traffic** → GPS/AVL and TSP.
-8. **High parking demand** → smart parking sensors.
-9. **High pedestrian volume** → pedestrian detection and protected phases.
-10. **Frequent violations** → ANPR.
-11. **Budget and maintenance capacity** → maintainable systems.
-
-### Transportation Requirements
-- Congestion → adaptive signals, traveler information
-- Safety → incident detection, enforcement
-- Transit reliability → AVL, TSP
-- Travel-time monitoring → Bluetooth/GPS
-- Demand management → pricing, parking information
-
-### Urban Example: Bengaluru Busy Corridor
-**Site conditions:** rapid growth, high vehicle ownership, severe peak congestion, mixed traffic, frequent road works, heavy BMTC bus movement, high parking and pedestrian demand.
-
-**Technologies and reasons:**
-- **CCTV with AI analytics:** multi-lane, handles mixed traffic, detects incidents, avoids loop damage
-- **Adaptive signals:** respond to variable demand
-- **BMTC GPS tracking:** real-time bus arrival information
-- **Transit Signal Priority:** bus reliability
-- **ANPR:** enforcement
-- **Smart parking with apps:** reduce circling
-- **VMS and apps:** traveler information
-- **Fibre to TMC with cellular backup**
-
-**Key point:** systems must be **integrated**, not isolated.
-
----
-
-## Q9. Vehicle Platooning: Principles and Role of Automation, Sensors, Communication
-
-### Principles
-1. A **platoon** is a group of vehicles travelling with **coordinated speed** and **small, controlled gaps**.
-2. **Leader vehicle** sets speed and movement; **follower vehicles** adjust to the vehicle ahead.
-3. **Working:**
-   - Leader sends speed, acceleration, braking data via V2V.
-   - Followers measure gap and relative speed.
-   - Controller calculates acceleration or braking to keep the gap.
-   - Followers start braking **before seeing** the leader brake.
-   - Reduces shockwaves and improves stability.
-4. **Types:**
-   - **Open platoon:** vehicles join or leave freely (general highways).
-   - **Closed platoon:** fixed group for the whole trip (freight convoys).
-
-### Role of Sensors
-- **Radar:** distance and relative speed of vehicle ahead.
-- **LiDAR:** detailed 3D detection of surroundings.
-- **Cameras:** vehicles, lanes, road conditions.
-- **GPS:** position.
-
-### Role of Communication
-- **V2V:** share speed, acceleration, braking, position; faster reaction than sensors alone.
-- **V2I:** speed limits, hazards, traffic information.
-- Needs **low latency, reliability, security**.
-
-### Role of Automation
-- **Vehicle controller** processes data and controls acceleration, braking, steering.
-- **ACC:** uses sensors only.
-- **CACC:** sensors **plus V2V**, enabling smaller gaps and smoother response.
-
-**Key lesson:** platooning is an **integrated vehicle-road-communication system**.
-
----
-
-## Q10. Benefits and Challenges of Platooning
-
-### Benefits
-1. Increased highway capacity.
-2. Fuel savings from reduced aerodynamic drag.
-3. Lower emissions.
-4. Improved safety through faster coordinated braking.
-5. Traffic stability (fewer stop-and-go waves).
-6. Reduced driver workload.
-7. Lower freight operating costs.
-
-**Note:** benefits depend on technology, communication reliability, traffic, platoon size, and control strategy.
-
-### Challenges
-1. Communication reliability and latency.
-2. Cybersecurity risks.
-3. Fail-safe control.
-4. Vehicle compatibility.
-5. Mixed traffic and cut-ins.
-6. Frequent joining and leaving.
-7. Road geometry (curves, gradients, bridges).
-8. Legal issues: minimum gaps, liability, driver responsibility.
-9. Human factors: alertness and takeover readiness.
-10. Equipment cost.
-
-### Case Studies
-- **European truck platooning:** technically feasible; issues with geometry, regulation, driver responsibility.
-- **US truck platooning:** fuel and stability benefits; reduced in variable traffic.
-
----
-
-## Q11. Planning Framework for ITS at a Major Junction
-
-| Stage | Activities | Output |
-|---|---|---|
-| 1. Problem identification | Site visits, surveys, stakeholder meetings | Problem statement |
-| 2. Baseline data | Volume, turning counts, queue, delay, speed, pedestrians, accidents | "Before" data |
-| 3. Objectives | Measurable targets for delay, queue, bus reliability | Target indicators |
-| 4. Requirement analysis | Data needs, accuracy, locations, infrastructure, users | Requirement document |
-| 5. Feasibility study | Technical, economic, operational check | Go/no-go decision |
-| 6. Technology selection | Sensors, signals, communication, software | Technology list |
-| 7. System design | Hardware, software, communication, cybersecurity, backup | Specifications |
-| 8. Deployment | Procure, install, calibrate, connect to TMC | Working installation |
-| 9. Testing | Functional, integration, performance, user acceptance | Validated system |
-| 10. Operation and maintenance | Monitoring, preventive and corrective maintenance, updates | Reliable operation |
-| 11. Performance evaluation | Before-after comparison | Evaluation report |
-| 12. Upgrade | AI, V2X, more junctions | Expanded system |
-
-**Stakeholders:** traffic police, municipal corporation, transport department, bus operator, power and telecom agencies, vendors, public.
-
----
-
-## Q12. Problem Identification to Outcome Evaluation
-
-### Step 1: Identify the Problem
-1. Observe the junction at peak and off-peak hours.
-2. Collect volume, turning movements, queue, delay, speed, travel time, accident data.
-3. Find causes: fixed timing, right turns, bus stops, illegal parking, pedestrians.
-4. Consult stakeholders.
-5. Select technology **because it solves the problem**, not because it is modern.
-
-### Step 2: Select Technologies
-1. Match problems to solutions:
-   - Queues and delays → adaptive signals and camera/radar detection
-   - Accidents and violations → ANPR and enforcement cameras
-   - Bus delays → GPS/AVL and TSP
-   - Driver confusion → VMS and apps
-   - Pedestrian risk → pedestrian detection and signal phases
-2. Compare accuracy, reliability, cost, maintenance, weather, compatibility, cybersecurity, scalability.
-3. Choose fibre to TMC with cellular backup.
-
-### Step 3: Plan Deployment
-1. System design (hardware, software, communication).
-2. Standards-based procurement.
-3. Site preparation (poles, cabinets, power, cables).
-4. Installation and calibration.
-5. Integration with TMC.
-6. Pilot first, then corridor expansion.
-7. Traffic management during works.
-8. Staff training.
-9. Public awareness.
-
-### Step 4: Evaluate Outcomes
-1. Testing: functional, integration, performance, user acceptance.
-2. Indicators: travel time, delay, queue, throughput, accidents, detection time, bus reliability, availability, satisfaction.
-3. Before-after comparison.
-4. Corrective action if targets are missed.
-5. Report results to justify expansion.
-
----
-
-## Q13. Planning, Standardizing, Implementing and Evaluating an ITS Project
-
-### Stage 1: Planning
-1. Assess problems, infrastructure, and future demand.
-2. Define objectives, stakeholders, users, services, data needs, expected performance.
-3. Cover traffic, transit, emergency, freight, parking, tolling, safety.
-4. Feasibility study.
-5. Phased plan:
-   - Phase 1: CCTV and signal coordination
-   - Phase 2: adaptive signals and transit integration
-   - Phase 3: smart parking and AI analytics
-6. Plan for future technologies.
-7. Include maintenance budgets from the start.
-
-### Stage 2: Standardizing
-1. Follow **ISO, IEEE** and national standards for communication protocols, data formats, interfaces, cybersecurity, architecture, equipment performance.
-2. Benefits:
-   - Interoperability between manufacturers
-   - No vendor lock-in
-   - Easy component upgrades
-   - Data sharing between agencies
-   - Essential for connected vehicles
-
-### Stage 3: Implementing
-1. Requirement analysis and technology selection.
-2. System design.
-3. Procurement and site preparation.
-4. Installation, calibration, TMC integration.
-5. Pilot project, then full rollout.
-6. Testing.
-7. Operation and maintenance.
-8. Cybersecurity: authentication, encryption, access control, updates.
-9. Public awareness.
-
-### Stage 4: Evaluating
-1. Measure indicators.
-2. Compare before and after.
-3. Identify gaps and improve.
-4. Upgrade with AI, 5G, V2X, cloud.
-
-**Cycle:** Plan → Standardize → Implement → Test → Operate → Evaluate → Upgrade → repeat.
-
----
-
-## Q14. Performance Evaluation with Case Studies
-
-### How Performance Evaluation Helps
-1. Checks whether objectives are met.
-2. Before-after comparison shows real impact.
-3. Justifies investment.
-4. Identifies faults (sensors, calibration, communication).
-5. Guides improvements.
-6. Supports expansion decisions after pilots.
-7. Ensures accountability.
-8. Provides data for future planning.
-
-### Key Performance Indicators
-
-| Category | Indicators |
+| Topic | Key idea |
 |---|---|
-| Mobility | Travel time, delay, queue length, throughput, reliability |
-| Safety | Accident frequency and severity, incident detection time |
-| Emergency | Response time, clearance time |
-| System | Availability, detection accuracy, latency |
-| Public transport | Punctuality, arrival-time accuracy |
-| Environment | Fuel use, emissions |
-| Users | Satisfaction |
-
-### Evaluation Methods
-1. Collect baseline ("before") data.
-2. Collect "after" data under similar conditions.
-3. Compare and analyse.
-4. User surveys.
-5. Continuous monitoring.
-
-### Case Study 1: Singapore Electronic Road Pricing
-- **Objective:** control congestion on busy roads.
-- **System:** charges vehicles entering congested zones at peak times.
-- **Evaluation:** traffic speeds and volumes monitored; charges adjusted to keep traffic flowing.
-- **Lesson:** continuous evaluation allows adaptive pricing; technology works best with policy.
-
-### Case Study 2: FASTag (India)
-- **Problem:** toll-plaza queues and delays.
-- **Indicators:** waiting time, queue length, transaction time, share of electronic transactions.
-- **Result:** reduced stopping and queuing.
-- **Lesson:** indicators show success and reveal remaining issues (e.g., tag read failures).
-
-### Case Study 3: Bengaluru Urban ITS
-- **Systems:** adaptive signals, CCTV, BMTC GPS tracking.
-- **Indicators:** junction delay, queue length, corridor travel time, bus arrival accuracy.
-- **Use:** identifies junctions needing upgrades and checks transit integration.
-
-**Conclusion:** performance evaluation makes ITS measurable, accountable, and continuously improving.
+| Organising | Turns plans into a working structure: divide work, assign authority, fix relationships |
+| Process of organising | Identify activities → Group activities → Assign duties → Delegate authority → Fix relationships |
+| Span of management | Number of subordinates reporting directly to one manager |
+| Tall vs. flat | Narrow span → tall (many levels); wide span → flat (few levels) |
+| Departmentalisation | Grouping jobs by function, product, geography, customer, or process |
+| Functional vs. divisional | Functional = expertise, suits small/single-product firms; Divisional = product accountability, suits large multi-product firms |
+| Line vs. line-and-staff | Line authority commands; staff authority advises |
+| Authority / Responsibility / Accountability | Authority flows down; responsibility cannot be handed away; accountability flows up. Authority must match responsibility |
+| Delegation | Manager passes authority down but stays accountable |
+| Decentralisation | Decision-making spread widely down the organisation |
+| Staffing process | Manpower Planning → Recruitment → Selection → Placement → Induction |
+| Manpower formula | To recruit = Required − (Present − Attrition) |
+| Recruitment vs. selection | Recruitment is positive (widens pool); selection is negative (narrows pool) |
 
 ---
 
-## Quick Revision Table
+## Question Index (CO / PO / RBT)
 
-| Q | Topic | Key Points |
+| Q.No | Topic | CO | PO | RBT Level |
+|---|---|---|---|---|
+| 1 | Definitions (organising, span, departmentalisation, staffing, recruitment) | CO4 | PO1 | L1 |
+| 2 | Five bases of departmentalisation | CO4 | PO1 | L1 |
+| 3 | Five stages of staffing | CO4 | PO1 | L1 |
+| 4 | Meaning and process of organising | CO4 | PO1 | L2 |
+| 5 | Span of management and its factors | CO4 | PO1, PO2 | L2 |
+| 6 | Tall vs. flat structures | CO4 | PO1, PO2 | L2 |
+| 7 | Functional departmentalisation | CO4 | PO1 | L2 |
+| 8 | Product (divisional) departmentalisation | CO4 | PO1 | L2 |
+| 9 | Geographic and customer departmentalisation | CO4 | PO1 | L2 |
+| 10 | Line vs. line-and-staff structure | CO4 | PO1, PO3 | L2 |
+| 11 | Authority, responsibility, accountability | CO4 | PO1, PO9 | L2 |
+| 12 | Delegation of authority | CO4 | PO1, PO9 | L2 |
+| 13 | Centralisation vs. decentralisation | CO4 | PO1, PO2 | L2 |
+| 14 | Manpower planning | CO4 | PO1, PO11 | L2 |
+| 15 | Sources of recruitment | CO4 | PO1, PO2 | L2 |
+| 16 | Selection process | CO4 | PO1, PO2 | L2 |
+| 17 | Placement and induction | CO4 | PO1, PO10 | L2 |
+| 18 | Organisation chart (120 employees) | CO4 | PO3, PO10 | L3 |
+| 19 | Span: 25 packers vs. 5 scientists | CO4 | PO2 | L3 |
+| 20 | Departmentalisation for a 4-state retailer | CO4 | PO2, PO3 | L3 |
+| 21 | Faulty delegation of a report | CO4 | PO2, PO9 | L3 |
+| 22 | Staffing case study | CO4 | PO2, PO10 | L3 |
+| 23 | Manpower calculation (faculty) | CO4 | PO2, PO11 | L3 |
+| 24 | Selection for a production supervisor | CO4 | PO2, PO3 | L3 |
+| 25 | Span of 5 vs. 10 for 1,000 operatives | CO4 | PO2, PO11 | L4 |
+| 26 | Line–staff conflict | CO4 | PO2, PO9, PO10 | L4 |
+| 27 | Internal vs. external plant manager | CO4 | PO2, PO9 | L4 |
+| 28 | Start-up: centralise or decentralise | CO4 | PO2, PO11 | L5 |
+| 29 | Evaluating hurried hiring | CO4 | PO2, PO6 | L5 |
+| 30 | Organisation and staffing plan (300 employees) | CO4 | PO2, PO3, PO11 | L6 |
+
+---
+
+## L1 – Remember
+
+### Q1. Define the following terms with one suitable example each
+
+**(a) Organising** is the management function that turns a plan into a working arrangement. It decides who does what, who reports to whom, and who holds the authority to act.
+*Example:* A college tech fest splits its work into registration, events, sponsorship and logistics, names a coordinator for each, and makes all four report to one student convener.
+
+**(b) Span of Management** is the number of subordinates who report directly to one manager. If it is too wide, supervision suffers. If it is too narrow, the organisation pays for more managers than it needs.
+*Example:* A supervisor can handle 25 operators doing identical packing work, but a research head may manage only 5–6 scientists.
+
+**(c) Departmentalisation** is grouping related jobs into departments on some basis: function, product, geography, customer or process.
+*Example:* A manufacturing firm groups its jobs into Production, Marketing, Finance and HR departments.
+
+**(d) Staffing** is filling the positions in the structure with the right people, and keeping them filled. It covers manpower planning, recruitment, selection, placement and induction.
+*Example:* A bicycle maker opening a new plant forecasts 120 posts, then recruits, selects, places and inducts people into them.
+
+**(e) Recruitment** is searching for and attracting enough suitable candidates to apply. It widens the pool, and selection later narrows it.
+*Example:* A company advertises trainee-engineer posts on job portals and visits campuses, receiving 600 applications.
+
+---
+
+### Q2. List the five common bases of departmentalisation with one example each
+
+| Basis | Groups work by | Example |
 |---|---|---|
-| 1 | Urban intersection selection | Problem → data → objectives → requirements → technology → design → pilot → evaluate |
-| 2 | Selection factors | Traffic, geometry, pavement, weather, power, communication, accuracy, cost, maintenance |
-| 3 | Global ITS | US (ATMS/ATIS), Japan (ETC, V2I), Singapore (ERP), Korea (bus info), India (FASTag, ANPR) |
-| 4 | Comparison and lessons | Problem-oriented, integrated, phased, policy plus technology, maintenance |
-| 5 | Highway corridor | Radar, CCTV-AID, VMS, ETC, ramp metering, RWIS, WIM, TMC |
-| 6 | AHS concept | Automated longitudinal/lateral control on equipped roads; V2V/V2I |
-| 7 | AHS benefits/challenges | Capacity and safety vs cost, mixed traffic, liability; led to CAV |
-| 8 | Site-specific selection | Bengaluru example: CCTV-AI, adaptive signals, BMTC GPS, TSP |
-| 9 | Platooning principles | Leader/followers, radar/LiDAR/cameras, V2V, ACC vs CACC |
-| 10 | Platooning pros/cons | Capacity, fuel vs latency, cybersecurity, mixed traffic, regulation |
-| 11 | Junction framework | 12-stage table from problem to upgrade |
-| 12 | Four steps | Identify → select → deploy → evaluate |
-| 13 | Project stages | Plan → standardize (ISO/IEEE) → implement → evaluate |
-| 14 | Performance evaluation | KPIs, before-after; Singapore ERP, FASTag, Bengaluru |
+| Functional | The kind of work done | Production, Marketing, Finance, HR |
+| Product | The product or service | Two-wheelers division, Cars division |
+| Geographic | The area served | North, South, East, West regions |
+| Customer | The type of buyer | Retail, Corporate, Government |
+| Process | The stage of the process | Cutting, Stitching, Finishing (garment unit) |
 
+1. **Functional:** Jobs are grouped by specialised activity, such as all accountants in Finance. This is common in small or single-product firms.
+2. **Product:** Each product line gets its own self-contained division with its own functions, such as an automobile firm with separate two-wheeler and car divisions.
+3. **Geographic:** Activities are grouped by territory, so local needs are served by local managers. A sales network with North, South, East and West zones is an example.
+4. **Customer:** Activities are grouped by the type of buyer served. A bank with separate retail, corporate and government banking units is an example.
+5. **Process:** Activities are grouped by the stages of production. A garment factory with cutting, stitching and finishing sections is an example.
+
+A firm can use several bases at once. For example, a garment company may be functional inside the factory, geographic for sales offices, and customer-based for exporters versus domestic retailers.
 
 ---
 
-## Q1. Selecting ITS for a Busy Urban Intersection
-1. **Identify the problem:** queues, delays, accidents, bus delays.
-2. **Collect data:** volume, turning counts, queue, delay, accidents.
-3. **Find causes:** fixed timing, right turns, bus stops, parking, pedestrians.
-4. **Set objectives:** reduce delay and queue, improve safety.
-5. **Requirement analysis:** data type, frequency, accuracy, location.
-6. **Check existing infrastructure:** signals, CCTV, power, TMC.
-7. **Select technology:** cameras/radar/loops, adaptive signals, GPS + TSP, ANPR, VMS, fibre.
-8. **Design, then pilot, then evaluate** (before vs after).
+### Q3. List the five stages of the staffing process
+
+**Manpower Planning → Recruitment → Selection → Placement → Induction**
+
+1. **Manpower planning:** Forecasting how many people, with what skills, will be needed, and comparing that with the present workforce to find the gap.
+2. **Recruitment:** Searching for and attracting suitable candidates from internal sources (promotions, transfers) and external ones (campus, portals, ads, agencies, referrals).
+3. **Selection:** Choosing the best-fitting candidates through screening, tests, interviews, reference checks and a medical exam, ending with an offer.
+4. **Placement:** Putting the selected person into the job that matches their skills and interests.
+5. **Induction (orientation):** Introducing the new employee to the company's goals, rules, safety practices, colleagues and job, so they settle in quickly.
+
+Each stage feeds the next. You cannot recruit well without knowing how many people you need, and selection is only as good as the pool that recruitment produced.
 
 ---
 
-## Q2. Factors for Selection
-**Location:** mixed traffic, road geometry, pavement condition, weather, power, communication, pedestrians, buses, existing systems.
+## L2 – Understand
 
-**Use case:** required accuracy, coverage, real-time need, output type, life-cycle cost, maintenance, privacy, future expansion.
+### Q4. Explain the meaning of organising and the steps in the process of organising
 
-**Quick rules:**
-- Bad pavement → camera/radar instead of loops
-- Fog/rain → radar
-- No fibre → cellular
+**Meaning:** Organising is the function that converts plans into a working structure. It decides who does what, who reports to whom, and who holds the authority to act. It does three things:
+
+- **Divides the work** into manageable tasks so people can specialise.
+- **Assigns authority** matched to the responsibility given.
+- **Links people together** through reporting relationships, so separate groups work towards one goal.
+
+A plan with no structure behind it is just a wish.
+
+**Process of organising (five steps):**
+
+1. **Identify the activities:** List every task needed to achieve the objectives.
+2. **Group the activities:** Combine related tasks into jobs and departments (departmentalisation).
+3. **Assign duties:** Give each job to a suitable person or team.
+4. **Delegate authority:** Give each person the power needed to carry out their duties.
+5. **Fix relationships:** Decide who reports to whom, the span of each manager, and how groups coordinate.
+
+**Example:** A bakery plans to sell 500 cake boxes a day.
+1. It lists the tasks: baking, packing, delivery and billing.
+2. It groups them into production and sales.
+3. It assigns people to each group.
+4. It gives the production lead authority to order ingredients.
+5. It makes both leads report to the owner.
 
 ---
 
-## Q3. ITS Around the World
-- **USA:** ATMS, ATIS, ETC, connected vehicles
-- **Japan:** ETC, navigation, V2I
-- **Singapore:** **ERP (congestion pricing)**
-- **South Korea:** bus information, intelligent signals
-- **Europe:** cooperative ITS, common standards, sustainability
-- **India:** FASTag, CCTV, ANPR, adaptive signals, GPS buses
-- **China:** large-scale ETC, enforcement, analytics
-- **Brazil:** São Paulo control centres
+### Q5. Explain span of management and the factors favouring a wider or narrower span
+
+**Concept:** Span of management (or span of control) is the number of subordinates who report directly to one manager. It must be balanced:
+
+- If it is **too wide**, the manager cannot guide, check or support everyone, so control suffers.
+- If it is **too narrow**, there are too many managers, which raises cost and adds levels.
+
+There is no single ideal number. The right span depends on the situation.
+
+**Factors favouring a wider span:**
+- **Routine, repetitive work** needs little guidance once standards are set.
+- **Skilled, well-trained subordinates** work independently.
+- **Good communication tools and clear procedures** reduce the need for personal supervision.
+- **Staff working close together** are easy to observe and coordinate.
+
+**Factors favouring a narrower span:**
+- **Complex or changing work** needs frequent guidance and decisions.
+- **Inexperienced subordinates** need close training and checking.
+- **Staff spread across many locations** are harder to supervise.
+- **A manager with many other duties** has less time for each subordinate.
+
+**Example:** A supervisor of 25 packers doing identical work can cope with a wide span. A research head guiding scientists on different experiments can manage only about 5 or 6 people.
 
 ---
 
-## Q4. Comparison and Lessons for India
+### Q6. Explain tall vs. flat structures and how span determines the number of levels
 
-| Developed | Developing |
+**Tall structure:** Narrow spans and many levels of management.
+**Flat structure:** Wide spans and few levels.
+
+**How span decides the number of levels:** For a fixed workforce, the number of managers at each level is the number of people below divided by the span. Repeat this upward until one person sits at the top. A smaller span means more managers per level and more levels.
+
+**Illustration with 1,000 operatives:**
+
+| | Span of 5 (Tall) | Span of 10 (Flat) |
+|---|---|---|
+| Managers per level | 200 + 40 + 8 + 2 + 1 | 100 + 10 + 1 |
+| Total managers | 251 | 111 |
+| Levels | 5 | 3 |
+
+**Comparison:**
+
+| Aspect | Tall | Flat |
+|---|---|---|
+| Supervision | Close | Looser |
+| Speed of decisions | Slow (many layers) | Fast |
+| Cost of management | High | Low |
+| Communication | Distorted over many levels | Direct |
+| Promotion opportunities | More levels to climb | Fewer |
+| Subordinate autonomy | Low | High |
+
+Doubling the span from 5 to 10 cuts the levels from 5 to 3 and the managers from 251 to 111. This is why many modern firms flatten their structures. Flatter structures, however, need capable, self-directed staff.
+
+---
+
+### Q7. Explain functional departmentalisation, with its strengths and weaknesses
+
+**Meaning:** Jobs are grouped by the kind of work done. Typical departments are Production, Marketing, Finance and HR, each headed by a specialist who reports to the chief executive.
+
+```
+                Managing Director
+     ┌───────────┬──────┴─────┬──────────┐
+ Production   Marketing    Finance       HR
+```
+
+**Strengths:**
+- **Deep expertise:** Specialists work together and learn from each other.
+- **Efficient use of specialists and equipment:** There is no duplication.
+- **Simple and logical:** It is easy to understand and supervise.
+- **Clear career paths** exist within each function.
+
+**Weaknesses:**
+- **Departmental tunnel vision:** Each department may chase its own goals. For example, production wants long runs while marketing wants variety.
+- **Hard coordination across departments:** Conflicts travel up to the top.
+- **No single profit centre:** No one below the top is accountable for overall results.
+- **Slow response** as the firm grows or adds products.
+- **Narrow training:** It does not develop general managers.
+
+**Suitability:** Best for small or single-product companies, such as a firm making only water pumps.
+
+---
+
+### Q8. Explain product (divisional) departmentalisation and where it is most suitable
+
+**Meaning:** The organisation is split into self-contained divisions, one per product or product line. Each division has its own production, marketing and finance staff, and its head answers for that product's profit and loss.
+
+```
+                    Managing Director
+        ┌──────────────┼───────────────┐
+   Pumps Division  Solar Panel Div.  Inverter Div.
+   (Prod, Mktg,    (Prod, Mktg,      (Prod, Mktg,
+    Fin)            Fin)              Fin)
+```
+
+**Strengths:**
+- **Clear accountability** for each product's results; each division is a profit centre.
+- **Focus and faster response** to the market for each product.
+- **Easy to add or drop** a product line.
+- **Develops general managers**, since division heads handle all functions.
+
+**Weaknesses:**
+- **Duplication** of staff and equipment across divisions, which raises cost.
+- **Divisions may compete** for company resources.
+- **Top management can lose control** if divisions become too independent.
+
+**Most suitable for:** Large companies with several distinct products, each needing different technology, markets or customers. *Example:* A pump maker that adds solar panels and inverters can give each product a division so one manager answers for its profit.
+
+---
+
+### Q9. Explain geographic and customer-based departmentalisation
+
+**Geographic (territorial) departmentalisation:** Activities are grouped by the area served. Each region has its own manager and often its own sales, service or production units.
+
+- *Advantages:* Local managers understand local customers, language, laws and climate. Response is faster and transport costs are lower. It also develops managers.
+- *Disadvantages:* Facilities are duplicated, and top management finds it harder to control distant regions.
+- *Example:* A cement or FMCG company with North, South, East and West zones, each under a regional manager.
+
+**Customer departmentalisation:** Activities are grouped by the type of buyer, because different buyers have different needs.
+
+- *Advantages:* Each customer group gets specialised attention, which builds stronger relationships.
+- *Disadvantages:* Work may be uneven across groups, and some effort is duplicated.
+- *Example:* A bank with separate Retail, Corporate and Government banking departments. Another is a garment exporter that serves foreign buyers differently from domestic retailers.
+
+---
+
+### Q10. Explain line vs. line-and-staff structure; distinguish line and staff authority
+
+**Line structure:** Authority flows in a single straight line from top to bottom. Each person has exactly one boss, following the scalar chain and unity of command.
+
+- *Strengths:* It is simple, clear and quick to decide, and discipline is strong.
+- *Weaknesses:* Managers carry heavy loads with no specialist help, and the firm depends heavily on a few key people.
+- *Suits:* Small organisations.
+
+**Line-and-staff structure:** Line managers run the core work, while staff specialists (legal, quality, HR, finance advisors) advise and support them.
+
+- *Strengths:* Specialist knowledge supports line decisions, and line managers are relieved of technical detail.
+- *Weaknesses:* Friction arises when staff advice is ignored or seen as interference, and costs are higher.
+- *Suits:* Medium and large organisations.
+
+**Line authority vs. staff authority:**
+
+| Line authority | Staff authority |
 |---|---|
-| Large-scale, integrated | Phased, low-cost |
-| Advanced (V2X, AHS) | Basic (CCTV, FASTag) |
-| Strong infrastructure | Weak power and communication |
-
-**Developing-country challenges:** funding, power, skilled staff, maintenance, fragmented agencies, mixed traffic.
-
-**Lessons for India:**
-1. Problem first, not technology first
-2. Integrate systems
-3. Phased rollout
-4. Technology plus policy (Singapore)
-5. Standards
-6. Maintenance budget
-7. Agency coordination
+| The right to **command** and make decisions | The right to **advise** and recommend |
+| Flows down the chain of command | Flows across to line managers |
+| Directly responsible for core objectives (production, sales) | Supports the achievement of those objectives |
+| Example: production manager, shift supervisor | Example: quality-assurance advisor, legal officer |
 
 ---
 
-## Q5. Highway Corridor (Congestion + Accidents)
-- **Radar:** speed and flow in all weather
-- **CCTV + Automatic Incident Detection:** quick detection prevents secondary crashes
-- **VMS:** early warnings at high speed
-- **Incident Management System:** faster clearance
-- **FASTag (ETC):** no toll queues
-- **Ramp metering:** controls merging
-- **RWIS:** weather warnings
-- **Variable speed limits + speed enforcement**
-- **Weigh-in-Motion:** catches overloaded trucks
-- **Fibre + TMC:** central control
+### Q11. Explain authority, responsibility and accountability, and why authority must match responsibility
 
-**Example:** Delhi–Meerut Expressway.
+- **Authority** is the right to make decisions and direct others. It comes from the position and flows **downward** through the chain of command. *Example:* A production manager may schedule shifts and assign operators.
+- **Responsibility** is the duty to carry out the assigned work. It comes with the position and **cannot be handed away**. Even when work is delegated, the manager remains responsible.
+- **Accountability** is being answerable for results to the person who assigned the work. It flows **upward**.
+
+**Why authority must match responsibility (the parity principle):**
+
+- **Responsibility without authority** leaves a person unable to act. *Example:* A store manager held responsible for monthly sales targets, but not allowed to change prices or approve discounts, will struggle to meet targets she is answerable for. Frustration and blame follow.
+- **Authority without responsibility** invites misuse. A person can make decisions without answering for their consequences.
+- Matching the two makes delegation work. It gives people confidence to act, makes performance measurable, and builds trust within a team, since everyone knows who can decide what and who answers for what.
 
 ---
 
-## Q6. Automated Highway System (AHS)
-- **Definition:** automated **speed (longitudinal)** and **steering (lateral)** control on **specially equipped roads**.
-- **Working:** sensors (radar, LiDAR, cameras) + V2V/V2I + onboard computer, leading to small, safe gaps and vehicles moving in groups.
-- Driver hands over control on entry and takes it back on exit.
-- Must be **fail-safe**.
+### Q12. Explain delegation of authority, why managers delegate, and why the manager remains accountable
+
+**Meaning:** Delegation is when a manager passes some authority to a subordinate to do a specific job. It has three elements:
+
+1. Assigning the task (responsibility).
+2. Granting matching authority.
+3. Creating accountability for results.
+
+**Why managers delegate:**
+- It **frees the manager** from routine work to focus on planning and higher-level decisions.
+- It **develops subordinates** by building their skills, confidence and readiness for promotion.
+- It enables **faster decisions**, made closer to the work.
+- It **improves morale** through trust and participation.
+- It **makes growth possible**, since one person cannot do everything in a growing organisation.
+
+**Why the manager remains accountable:** Delegation shares authority but **does not transfer ultimate responsibility**. The manager was given the task by their own superior, so they still answer to that superior for the result. The subordinate is accountable to the manager, and the manager is accountable upward. This is why a manager must choose the right person, give enough authority, and set up reasonable controls.
+
+Delegation works only when the authority given truly matches the task.
 
 ---
 
-## Q7. AHS Benefits, Challenges, Applications
-- **Benefits:** more capacity, safety, less driver fatigue, smooth flow, fuel savings.
-- **Challenges:** cost, special roads, **mixed traffic transition**, liability, laws, cybersecurity, public trust.
-- **Case studies:** US NAHSC (1990s), **I-15 San Diego**.
-- **Applications:** CAVs, truck platooning, ACC/CACC, lane-keeping, dedicated lanes.
+### Q13. Explain centralisation vs. decentralisation with examples
+
+**Centralisation:** Decision-making authority is kept at the top of the organisation. Lower levels mainly carry out instructions.
+
+**Decentralisation:** Decision-making authority is spread widely down the organisation, so managers at lower levels decide within set limits.
+
+| Point | Centralisation | Decentralisation |
+|---|---|---|
+| Who decides | Top management | Managers at many levels |
+| Speed | Slow for local matters | Fast local decisions |
+| Uniformity | High; consistent policies | Risk of inconsistency |
+| Manager development | Limited | Builds managers |
+| Top-level workload | Heavy | Lighter |
+| Suits | Small firms, crises, critical policy | Large, diversified, multi-location firms |
+| Requirements | Capable top team | Capable people plus good controls |
+
+**Examples:**
+- *Centralised:* A regional manager must wait for head-office approval to hire even one clerk.
+- *Decentralised:* Each plant head may approve hiring and purchases up to a set limit.
+
+**Delegation vs. decentralisation:** Delegation is an individual act between a manager and a subordinate. Decentralisation is delegation applied systematically across the whole organisation as a policy.
 
 ---
 
-## Q8. Site Conditions Influence Selection
-Traffic type, pavement, weather, space, power, communication, buses, parking, and pedestrians all decide the technology.
+### Q14. Explain the importance and steps of manpower planning
 
-**Bengaluru example:** mixed traffic and frequent road works led to:
-- CCTV + AI (not loops)
-- Adaptive signals
-- BMTC GPS + TSP
-- ANPR
-- Smart parking
-- VMS and apps
-- All integrated through the TMC
+**Meaning:** Manpower (human resource) planning forecasts how many people, with what skills, an organisation will need, and compares that with the people it already has.
 
----
+**Importance:**
+- **Prevents shortages and surpluses.** A hospital that hires in a rush ends up short-staffed on busy wards or paying idle staff on quiet ones.
+- **Controls labour cost** by matching staff to actual need.
+- **Guides recruitment and training**, so the firm knows how many to hire, train or redeploy.
+- **Supports expansion and projects**, so new plants or projects get people in time.
+- **Allows for attrition**, since retirements and resignations are anticipated rather than discovered.
+- **Helps succession planning**, so key posts are ready to be filled.
 
-## Q9. Platooning Principles
-- A group of vehicles with **small, coordinated gaps**.
-- The **leader** sets speed; **followers** adjust.
-- The leader sends braking data by **V2V**, so followers brake **before seeing it**.
-- **Sensors:** radar (gap and speed), LiDAR (3D view), cameras (lanes), GPS.
-- **Communication:** V2V and V2I, which need low latency.
-- **Automation:** ACC uses sensors only; **CACC uses sensors plus V2V**.
-- **Types:** open (join/leave freely) and closed (fixed group).
+**Steps:**
+1. **Estimate future needs** from business plans, such as expansion or new products.
+2. **Take stock of the present workforce**: its numbers, skills and age profile.
+3. **Allow for expected losses** from retirements, resignations and transfers.
+4. **Work out the gap**: the number to recruit, train or redeploy, then plan action.
 
----
-
-## Q10. Platooning Benefits and Challenges
-- **Benefits:** capacity, **fuel savings (less drag)**, lower emissions, safety, stable flow, lower freight cost.
-- **Challenges:** communication latency, cybersecurity, fail-safe design, compatibility, cut-ins, road geometry, laws, driver alertness.
+**Numerical illustration:**
+- 200 staff × 8% attrition = 16 lost.
+- 200 − 16 = 184 remain.
+- 220 are needed, so recruit 220 − 184 = **36**.
 
 ---
 
-## Q11. Junction Planning Framework
-Problem → baseline data → objectives → requirements → feasibility → technology selection → design → deployment → testing → operation and maintenance → evaluation → upgrade
+### Q15. Explain internal and external sources of recruitment
+
+**Internal sources:** Filling vacancies from within, through promotions, transfers, or re-hiring former employees.
+
+- *Advantage:* It boosts morale and rewards loyalty. It is also cheaper, and the person already knows the company.
+- *Limitation:* It limits fresh ideas and the size of the pool, and can cause resentment among those passed over.
+
+**External sources:** Campus placements, job portals, advertisements, placement agencies, employee referrals and walk-ins.
+
+- *Advantage:* It brings new skills and fresh thinking, and offers a much larger pool.
+- *Limitation:* It costs more, takes longer, and the newcomer takes time to settle in. It can also demotivate existing staff.
+
+**Example:** A company fills most supervisor posts by promoting its best operators (internal). It hires a head of digital marketing through a job portal (external) because no one in-house has that skill.
 
 ---
 
-## Q12. Four Steps
-1. **Identify:** surveys, causes, stakeholders.
-2. **Select:** match each problem to a technology; compare cost, accuracy, and reliability.
-3. **Deploy:** design, install, calibrate, connect to TMC, pilot, train staff.
-4. **Evaluate:** testing (functional, integration, performance, user acceptance) and before-after comparison of key indicators.
+### Q16. Explain the selection process and distinguish recruitment from selection
+
+**Steps in selection:**
+1. **Screen applications:** Reject those who don't meet basic qualifications.
+2. **Written or aptitude test:** Measure ability, reasoning and technical knowledge.
+3. **Interview:** Assess communication, attitude, depth of knowledge and fit.
+4. **Reference and background check:** Verify past employment, conduct and claims.
+5. **Medical examination:** Confirm fitness for the job's physical demands.
+6. **Final decision and offer:** Issue the appointment letter.
+
+Each step filters the pool further. *Example:* For 10 trainee-engineer posts, a company:
+- receives 600 applications,
+- shortlists 120 for a test,
+- interviews 40,
+- and offers posts to 12, so that about 10 accept.
+
+**Recruitment vs. selection:**
+
+| Recruitment | Selection |
+|---|---|
+| Searching for and attracting candidates | Choosing the best from those attracted |
+| **Positive** process: invites applications | **Negative** process: rejects the unsuitable |
+| Widens the pool | Narrows the pool |
+| Comes first | Follows recruitment |
+| Uses ads, portals, campus visits | Uses tests, interviews, checks |
 
 ---
 
-## Q13. Project Stages
-1. **Plan:** problems, objectives, feasibility, phased plan, maintenance budget.
-2. **Standardize:** ISO/IEEE standards, which give interoperability and avoid vendor lock-in.
-3. **Implement:** design, install, pilot, test, operate, secure.
-4. **Evaluate:** indicators, before-after comparison, upgrade.
+### Q17. Explain placement and induction, and how each helps a new employee settle in
+
+**Placement:** Putting the selected person into the right job, matching their skills and interests to the job's demands.
+
+- Right placement uses talent fully, raises productivity and job satisfaction, and lowers turnover.
+- Wrong placement wastes talent and breeds frustration.
+- The first job often shapes how the person sees the company.
+
+**Induction (orientation):** Introducing the new employee to the organisation. It covers:
+- the company's goals and history,
+- rules and policies, and safety,
+- colleagues and supervisor,
+- and the job itself.
+
+**How each helps a new employee settle in:**
+- Placement gives the employee work they can do well, which builds early confidence.
+- Induction reduces first-week anxiety and makes the newcomer feel welcome.
+- Together they clarify expectations and lower early attrition.
+- Induction is the first chance to build commitment, not just a round of paperwork. Good communication at this stage shapes the employee's attitude for years.
+
+**Example:** A new CNC operator is placed on the machining line where her diploma applies, not in stores. On day one, a short induction covers plant safety, her supervisor, shift timings, and how her work feeds the assembly line.
 
 ---
 
-## Q14. Performance Evaluation
-- **Why:** checks objectives, justifies cost, finds faults, guides upgrades and expansion.
-- **Indicators:** travel time, delay, queue, throughput, accidents, response time, availability, satisfaction.
-- **Method:** before vs after data under similar conditions.
-- **Case studies:**
-  - **Singapore ERP:** speeds monitored and prices adjusted
-  - **FASTag:** shorter toll queues
-  - **Bengaluru:** junction delay and bus arrival accuracy
+## L3 – Apply
+
+### Q18. Draw an organisation chart for a 120-employee manufacturer using functional departmentalisation
+
+**Applying functional departmentalisation:** The four activities become four departments, each under a head reporting to the Managing Director.
+
+```
+                         Managing Director
+       ┌───────────────┬─────────┴───────┬───────────────┐
+ Production Head  Marketing Head    Finance Head       HR Head
+   (≈85 staff)     (≈15 staff)       (≈8 staff)      (≈8 staff)
+  ┌─────┼─────┐       ┌───┴────┐       ┌───┴───┐       ┌───┴────┐
+Machin- Assem- Quality Domestic Exports Accounts Costing Recruit- Admin &
+ ing    bly           Sales    Sales                    ment &   Welfare
+                                                       Training
+```
+
+The numbers are approximate. Production, the core function, holds most of the people. The remaining staff include supervisors and support positions.
+
+**Reporting relationships shown:**
+- **Departmentalisation:** Functional (Production, Marketing, Finance, HR).
+- **Span:** The MD has 4 direct reports. The Production Head has 3 (Machining, Assembly, Quality), and the Marketing Head has 2.
+- **Unity of command:** Every box has exactly one line going up to a single boss.
+- **Levels:** The structure is fairly flat, with 3 managerial levels (MD, department heads, section heads), which suits a firm of 120.
+- **Line positions:** Production and Marketing do the core work. Finance and HR mainly support them.
+
+**Justification:** A small, single-product firm benefits most from functional expertise and simple control. A divisional structure would duplicate staff unnecessarily.
 
 ---
 
-## Memory Hooks
-- **ITS flow:** Sensors → Communication → TMC/AI → Decision → Control + Information
-- **Implementation steps:** Problem, Requirement, Technology, Design, Deploy, Test, Operate
-- **Platooning:** Leader + V2V + CACC = small gaps, less fuel
-- **AHS:** idea worked, but cost and mixed traffic stopped it, which led to today's CAVs
-- **Singapore = ERP, India = FASTag, Korea = bus information, Japan = ETC + V2I**
+### Q19. Apply span factors: 25 packers vs. 5 research scientists
 
+**Supervisor with 25 packers (wide span is appropriate):**
+- **Nature of work:** Packing is routine, repetitive and standardised. Once the method is set, little guidance is needed.
+- **Similarity of tasks:** All 25 do identical work, so one set of instructions and standards covers everyone.
+- **Location:** They work close together on one floor, so the supervisor can observe them all at a glance.
+- **Clear procedures:** Output and quality are easy to measure (boxes per hour, defects), so control is easy.
+- **Few problems:** Problems needing the supervisor's personal decision are rare.
+
+**Research head with 5 scientists (narrow span is appropriate):**
+- **Nature of work:** Research is complex, non-routine and constantly changing, so it needs frequent discussion.
+- **Dissimilar tasks:** Each scientist runs a different experiment, so the head must understand and guide each one separately.
+- **Many decisions:** Results are uncertain, and methods, resources and directions need frequent decisions.
+- **Hard to measure:** Progress cannot be checked by a simple count. It needs detailed review.
+- **Other duties:** The head likely also has duties such as funding, reporting and their own research.
+
+**Conclusion:** The right span is not a fixed number. It depends on the complexity and similarity of work, subordinates' skill, location, and clarity of procedures. Both spans are correct for their situations.
+
+---
+
+### Q20. Recommend a basis of departmentalisation for a retailer operating in four states
+
+**Recommendation: Geographic (territorial) departmentalisation.** Create one regional division per state, each under a regional manager reporting to the head office.
+
+```
+                 CEO / Head Office
+      (central buying policy, brand, finance)
+   ┌──────────┬─────────┴─────────┬──────────┐
+State A     State B            State C     State D
+Regional    Regional           Regional    Regional
+Manager     Manager            Manager     Manager
+(stores, local merchandising, local marketing, staffing)
+```
+
+**Justification:**
+- **Different customer tastes:** Each state prefers different styles, colours and sizes. A local manager can choose a suitable product mix.
+- **Different climates:** Seasons differ (winter wear in one state, cotton wear in another), so stock timing must be decided locally.
+- **Local knowledge:** Regional managers understand local festivals, languages, competitors and labour laws.
+- **Faster decisions:** Store problems are solved without waiting for head office.
+- **Accountability:** Each region's sales and profit can be measured separately.
+
+**Why not the other bases alone:** A purely functional structure would apply one central merchandising plan to all states and ignore local differences. Product or customer bases do not address the main issue, which is regional variation.
+
+**Practical refinement:** Keep finance, brand and bulk purchasing centralised for economies of scale, and use functional sections inside each region. This makes the structure a geographic–functional hybrid.
+
+---
+
+### Q21. A manager delegates a report but rewrites every line: what went wrong and how to fix it
+
+**What has gone wrong:**
+- **Responsibility was assigned without real authority.** The assistant was asked to prepare the report but was not trusted to decide its content. Since every line is rewritten, the assistant has no real authority over the work. This is responsibility without authority.
+- **This is false delegation.** The manager still does the work personally. The purpose of delegation (freeing the manager's time and developing the subordinate) is lost, and work is now done twice.
+- **Accountability is confused.** The manager remains accountable to their own boss, which is correct. But the assistant cannot be held accountable for a report that is effectively the manager's. The assistant learns that their effort doesn't count.
+- **Effects:** The assistant becomes demotivated and never develops, time is wasted, and the manager stays overloaded. It also signals a lack of trust within the team.
+
+**How to correct it:**
+1. **Define the task clearly:** State the format, data sources, standards and deadline in advance.
+2. **Grant matching authority:** Let the assistant decide on content and presentation within those standards.
+3. **Train if necessary:** If the assistant's skill is lacking, coach them instead of rewriting.
+4. **Control by exception:** Review key figures or sample sections, not every line. Gradually reduce checking as competence grows.
+5. **Give feedback:** Explain corrections so the assistant improves.
+6. **Keep ultimate accountability:** The manager still answers for the report, but controls it through standards and review rather than redoing it.
+
+---
+
+### Q22. Case study: staffing a new position
+
+*The following is an illustrative case. You may substitute a real organisation you know.*
+
+**Organisation:** A mid-sized automotive components manufacturer.
+**New position:** Quality Engineer for a new production line.
+
+| Stage | What the company does | Method used |
+|---|---|---|
+| Manpower planning | The new line needs one Quality Engineer. No internal staff have the required inspection-system skills. | Job analysis; job description and job specification (B.E. Mechanical, 2–3 years' QC experience) |
+| Recruitment | Posts the job internally first, then advertises externally | Internal job posting; job portal; employee referrals |
+| Selection | Shortlists 40 of 150 applicants and tests them; interviews 8; checks references; medical exam | Screening; technical test (GD&T, SPC); panel interview; reference check |
+| Placement | Places the selected engineer on the new machining line, where her inspection experience fits | Matching skills to job demands |
+| Induction | Two-day programme covering company history, quality policy, safety, ISO procedures, meeting the production manager, and a plant tour | Formal orientation plus mentor (buddy) assignment |
+
+**Observations:** Each stage builds on the previous one. The clear job specification from planning made screening easy, and the technical test filtered out unsuitable candidates early. A weak point is that the internal posting yielded no candidates, so the firm should train existing inspectors for future openings.
+
+---
+
+### Q23. Manpower-planning calculation for an engineering college
+
+**Given:** Present faculty = 200. Expected attrition = 8%. Faculty needed next year = 220.
+
+| Step | Calculation | Result |
+|---|---|---|
+| 1. Expected losses | 200 × 0.08 | **16 faculty** |
+| 2. Staff remaining | 200 − 16 | **184 faculty** |
+| 3. Requirement next year | Given | **220 faculty** |
+| 4. Number to recruit | 220 − 184 | **36 faculty** |
+
+**Answer:** The college must recruit **36 faculty members**.
+
+**Interpretation:** These 36 are made up of 20 new posts (growth from 200 to 220) plus 16 replacements for those who leave. Planning only for the 20 additional posts would leave the college 16 short. In practice, recruitment should also allow for some offers being declined, and should match subject-wise needs, not just the total count.
+
+---
+
+### Q24. Apply the selection process to fill a production supervisor vacancy
+
+| Step | Purpose | Suitable test or check |
+|---|---|---|
+| 1. Screening of applications | Remove candidates lacking basic requirements | Check for a diploma/degree in engineering and 3–5 years' shop-floor experience against the job specification |
+| 2. Written or aptitude test | Measure knowledge and reasoning | Technical test (production processes, quality basics, safety rules); numerical aptitude for output and efficiency calculations |
+| 3. Interview | Assess leadership, communication and problem-solving | Panel interview with the production manager and HR; situational questions (e.g., handling a machine breakdown or a worker dispute) |
+| 4. Reference and background check | Verify experience and conduct | Contact previous employers about supervisory record, attendance, discipline and safety record |
+| 5. Medical examination | Confirm fitness for shop-floor work | Check general fitness, vision and hearing (noisy environment); fitness for shift work |
+| 6. Final decision and offer | Choose the best candidate | Approval by the production head; offer letter stating salary, shift and reporting line |
+
+**Note:** For a supervisor, the interview should weigh people-handling ability heavily. A supervisor's main job is getting work done through operators. An optional trade or practical test can also check hands-on skill.
+
+---
+
+## L4 – Analyze
+
+### Q25. Span of 5 vs. span of 10 for 1,000 operatives
+
+**Span of 5:**
+
+| Level | Calculation | Managers |
+|---|---|---|
+| Level 1 (first-line supervisors) | 1,000 ÷ 5 | 200 |
+| Level 2 | 200 ÷ 5 | 40 |
+| Level 3 | 40 ÷ 5 | 8 |
+| Level 4 | 8 ÷ 5 = 1.6, rounded up | 2 |
+| Level 5 (top) | — | 1 |
+| **Total** | | **251 managers in 5 levels** |
+
+**Span of 10:**
+
+| Level | Calculation | Managers |
+|---|---|---|
+| Level 1 | 1,000 ÷ 10 | 100 |
+| Level 2 | 100 ÷ 10 | 10 |
+| Level 3 (top) | — | 1 |
+| **Total** | | **111 managers in 3 levels** |
+
+**Difference:** The wider span needs 140 fewer managers (about 56% fewer) and 2 fewer levels.
+
+**Analysis of effects:**
+
+| Factor | Span of 5 (Tall) | Span of 10 (Flat) |
+|---|---|---|
+| **Cost** | 251 managerial salaries, offices and perks; high overhead | 111 managers; large saving. At ₹10 lakh per manager per year, that is about ₹14 crore saved annually |
+| **Supervision** | Close, with frequent guidance; good for inexperienced staff or complex work | Looser; each manager has less time per subordinate; needs trained staff and clear procedures |
+| **Speed of decisions** | Slow; information passes through 5 levels and may be distorted | Fast; only 3 levels, with more direct communication |
+| **Employee autonomy and morale** | Low autonomy; may feel over-controlled | Greater autonomy and job satisfaction |
+| **Promotion opportunities** | More rungs to climb | Fewer rungs |
+
+**Conclusion:** If the operatives' work is routine and the staff are trained, the span of 10 is better: cheaper and faster. The span of 5 is justified only if the work is complex or the staff are inexperienced. Rounding at level 4 shows that real structures rarely divide evenly.
+
+---
+
+### Q26. Analyze the causes and effects of line–staff conflict
+
+**Causes from the line managers' side:**
+- **Staff encroach on line authority:** Line managers feel advisors "interfere" and try to give orders they have no right to give.
+- **Staff advice is seen as impractical or theoretical,** made by people who don't face shop-floor pressures.
+- **Staff take credit:** When things go well, staff claim credit; when they go badly, line gets blamed.
+- **Staff are younger and more highly qualified,** which creates resentment.
+
+**Causes from the staff specialists' side:**
+- **Advice is ignored:** Line managers resist new ideas, out of habit or fear of change.
+- **Staff lack authority:** They are held responsible for outcomes such as quality or legal compliance but cannot enforce anything.
+- **Staff are not consulted early:** They are called in only after problems arise.
+
+**Structural causes:**
+- Authority boundaries are unclear.
+- Goals differ. For example, a quality advisor wants zero defects while the production manager wants output targets met.
+- Communication is poor between the two groups.
+
+**Effects on decisions:**
+- Good specialist advice is wasted, so decisions are technically weaker.
+- Decisions are delayed while disputes escalate to higher management.
+- Responsibility is diluted and blame-shifting begins.
+- Teamwork and morale fall, causing friction between departments.
+- The firm pays for staff experts whose value it does not receive.
+
+**Remedies:**
+- Define line and staff authority clearly in writing.
+- Involve staff early in decisions.
+- Give certain staff **functional authority** in their speciality, such as the power to stop a non-conforming batch.
+- Set common goals.
+- Hold joint meetings and train both groups to respect each other's roles.
+
+---
+
+### Q27. Plant manager: promote internally or hire externally?
+
+**Option A — Promote the experienced internal manager:**
+
+| Advantages | Disadvantages |
+|---|---|
+| Knows the plant, processes, people and culture, so takes charge immediately | May bring "more of the same" with few fresh ideas, especially if the plant needs a turnaround |
+| Proven track record; less risk of a wrong choice | Promotion may stretch them beyond their competence |
+| Boosts morale and loyalty, showing a career path exists | Rivals passed over may resent them; former peers become subordinates |
+| Cheaper and faster recruitment; little induction needed | Existing informal loyalties may affect discipline |
+
+**Option B — Hire an external candidate:**
+
+| Advantages | Disadvantages |
+|---|---|
+| Brings new methods, technology and experience from other firms | Costly and slow (search, agency fees, higher salary) |
+| Wider pool, so a better chance of the best talent | Unknown performance in this culture; risk of a wrong hire |
+| Can make tough changes without old relationships | Long settling-in period for a senior post |
+| | Demotivates internal managers who hoped for promotion |
+
+**Analysis for this particular post:** A plant manager's job needs deep knowledge of operations and the authority to lead hundreds of workers. So:
+
+- **If the plant is running well** and the internal candidate has a good record, promotion is preferable. It keeps continuity and motivates others.
+- **If the plant needs major change** (new technology, poor productivity, labour problems), an external candidate with turnaround experience may be better.
+- **A balanced approach** is to consider both through one selection process with the same criteria, and then provide training or induction to whichever candidate wins.
+
+---
+
+## L5 – Evaluate
+
+### Q28. A start-up at 300 employees: centralise or decentralise?
+
+**Present situation:** The founder personally approves every purchase and hire, even though the firm has grown 15 times, from 20 to 300 employees. This worked at 20 people but now causes:
+- **Bottlenecks:** Decisions queue up behind one person, which slows operations.
+- **Founder overload:** No time is left for strategy, funding or growth.
+- **Demotivated managers:** They have responsibility without authority and cannot develop.
+- **Risk:** The firm depends entirely on one person.
+
+**Recommendation: Decentralise, gradually and with controls.** At 300 employees, the volume and variety of decisions are too large for one person. Department heads are closer to the work and can decide faster.
+
+**What to decentralise:**
+- Routine purchases up to a set limit (e.g., ₹1 lakh) go to department heads.
+- Hiring of junior and operational staff goes to department heads with HR.
+- Day-to-day operations, scheduling and minor expenses go to managers.
+
+**What to keep centralised:**
+- Strategy, annual budgets and capital investments.
+- Senior appointments and pay policy.
+- Large contracts above the limit.
+- Brand and legal matters.
+
+**Controls to add:**
+1. **Delegation of financial powers (DFP) document:** Written approval limits for each level.
+2. **Budgets:** Each department spends within an approved budget.
+3. **Standard procedures:** Purchase policy (e.g., three quotations), and a hiring policy with a fixed selection process and approved headcount.
+4. **MIS and reports:** Monthly spending and hiring reports reviewed by the founder.
+5. **Periodic audit:** Internal audit of purchases and recruitment.
+6. **Training managers** to use their new authority.
+
+**Justification:** Decentralisation will speed decisions, build a management team, and free the founder for growth. The controls prevent the main risk of decentralisation, which is inconsistency and misuse. Full centralisation is unsuitable at this size, and uncontrolled decentralisation would be risky. Controlled decentralisation is the best balance.
+
+---
+
+### Q29. Critically evaluate hurried hiring with no induction
+
+**Critical evaluation:** The practice is poor, and the high three-month attrition is its predictable result.
+
+- **No manpower planning:** The firm does not know how many people, or which skills, it needs. Hiring is reactive, which leads to wrong numbers and wrong profiles.
+- **Hurried recruitment:** A small, poorly targeted pool lowers the quality of candidates.
+- **Weak selection under time pressure:** Unsuitable people get through the filters.
+- **No induction:** Newcomers don't understand their job, rules, safety practices or colleagues. They feel lost and unwelcome, and anxiety turns into early resignation.
+- **Costs:** Recruitment money is wasted repeatedly. Production suffers, remaining staff are overloaded, safety risks rise, and the firm's reputation as an employer declines.
+- **Social dimension:** Employees face insecurity, and new staff without safety orientation are at risk. The firm also fails its responsibility to the people it hires.
+
+**Improvements at each stage, with justification:**
+
+1. **Manpower planning:** Forecast needs from business plans, analyse attrition, and prepare job descriptions and specifications. *This shifts hiring from crisis mode to planned mode.*
+2. **Recruitment:** Start early. Use suitable sources (internal promotions, referrals, campuses, portals) and give a realistic job preview. *A larger, better-informed pool attracts people who will stay.*
+3. **Selection:** Use a structured process with screening, a relevant test, a structured interview and reference checks, and do not skip steps to save time. *Better fit lowers early turnover.*
+4. **Placement:** Match each person's skills to the job. *Wrong placement causes frustration and quitting.*
+5. **Induction:** Introduce a formal programme covering company goals, rules, safety, a tour, supervisor introductions and a buddy or mentor, with check-ins at 30, 60 and 90 days. *This reduces first-week anxiety and builds commitment.*
+6. **Monitoring:** Conduct exit interviews and track three-month retention. *This shows whether the changes are working.*
+
+**Conclusion:** The short-term "saving" from hurried hiring is false economy. A planned staffing process costs less over time and produces a stable, safe and committed workforce.
+
+---
+
+## L6 – Create
+
+### Q30. Design an organisation and staffing plan for a new 300-employee manufacturer
+
+*Assume the company is a single-product engineering goods manufacturer (for example, pumps or machine components) with one plant.*
+
+#### (a) Organisation chart
+
+The structure is functional departmentalisation with a line-and-staff arrangement. Quality Assurance and Legal/Compliance act as staff units advising the MD.
+
+```
+                           Managing Director
+                  Staff: QA Head (+7), Legal/Compliance
+     ┌──────────────┬────────────┼─────────────┬──────────────┐
+ Production     Materials &   Marketing &    Finance &      HR &
+   Head          Purchase       Sales        Accounts       Admin
+   (217)          (12)          (25)          (12)          (20)
+  ┌───┬───┬───┐
+Machin- Fabri- Assem- Mainten-
+ ing   cation  bly    ance
+ Mgr    Mgr    Mgr    Mgr
+  │
+Shift Supervisors (12 in total across the shops)
+  │
+Operators (~15 per supervisor) + Technicians (20)
+```
+
+**Headcount (total 300):**
+
+| Unit | Staff |
+|---|---|
+| MD | 1 |
+| Department heads | 5 |
+| Production: 4 managers + 12 supervisors + 20 technicians + 181 operators | 217 |
+| Materials & purchase | 12 |
+| Marketing & sales | 25 |
+| Finance & accounts | 12 |
+| HR & admin | 20 |
+| Quality assurance | 8 |
+| **Total** | **300** |
+
+**Span of management at two levels:**
+- **Level 1 (MD):** 5 line heads plus 2 staff units. This moderate span suits strategic, varied work.
+- **Level 2 (Production Head):** 4 shop managers. This narrow span fits technical work that needs coordination.
+- **First line:** About 15 operators per supervisor, a wide span suited to routine, co-located shop work.
+
+**Reporting:** There are four levels in the production chain (MD → Head → Manager → Supervisor), with unity of command throughout. Staff units advise but do not command the shop floor.
+
+#### (b) Delegation vs. centralisation
+
+| Delegated (decentralised) | Kept centralised (MD / top team) |
+|---|---|
+| Shift scheduling, job allocation, overtime: supervisors | Annual budget, capital investment, new product lines |
+| Routine purchases up to ₹2 lakh: Materials Head | Purchases above the limit; long-term supplier contracts |
+| Hiring of operators and clerks within approved headcount: Department Head + HR | Senior appointments, wage and salary policy, union agreements |
+| Discounts within a set band: Marketing Head | Pricing policy and major customer contracts |
+| Maintenance decisions: Maintenance Manager | Safety and quality policy (set centrally, enforced locally) |
+
+**Reasons:** Routine, frequent and local decisions are delegated for speed and to develop managers. Decisions that are costly, long-term or policy-setting stay central for consistency and control. Controls include written financial-power limits, budgets, monthly MIS reports and internal audit.
+
+#### (c) Staffing plan
+
+- **Manpower plan:** Use the headcount above for the launch. For the next year, assume about 10% attrition. Planned growth to 320 would mean recruiting 320 − (300 − 30) = **50** people. Keep a skills inventory and succession list for key posts.
+- **Recruitment sources:**
+  - Senior heads: external, through search agencies or portals, since the company is new. Later, fill these by internal promotion.
+  - Supervisors: experienced hires plus internal promotion of top operators over time.
+  - Technicians and operators: ITIs, diploma colleges, local advertisements and employee referrals.
+  - Engineers and office staff: campus placements and job portals.
+- **Selection steps:**
+  1. Screening.
+  2. Aptitude test, plus a trade test for technicians and operators.
+  3. Panel interview.
+  4. Reference check.
+  5. Medical examination.
+  6. Offer.
+- **Placement:** Assign operators to machining, fabrication or assembly according to trade-test results.
+- **Induction programme (one week):**
+
+| Day | Content |
+|---|---|
+| Day 1 | Company vision, rules, HR policies |
+| Day 2 | Plant safety and PPE |
+| Days 3–4 | Quality standards and processes |
+| Day 5 | Shift routines and supervisor introductions |
+| Follow-up | Buddy assigned; 30-day review |
+
+#### (d) Justification
+
+- **Functional structure:** A single-product, medium-sized firm benefits from specialist expertise and economy. Divisions would duplicate resources.
+- **Line-and-staff:** QA and legal expertise support decisions without diluting line command.
+- **Mixed spans:** Narrow spans at the top suit complex, varied decisions. Wide spans on the shop floor suit routine work. The result is a relatively flat structure with four levels, giving faster decisions and lower overhead.
+- **Balanced delegation:** Operations move quickly while strategy stays controlled.
+- **Planned staffing:** Every post is filled on time with suitable, well-inducted people, which reduces early attrition.
+
+The structure can later shift to a divisional form if the company adds distinct product lines.
+
+---
+
+## Summary Tables
+
+### PO-wise Distribution
+
+| Program Outcome | No. of Questions |
+|---|---|
+| PO1 – Engineering knowledge | 17 |
+| PO2 – Problem analysis | 17 |
+| PO3 – Design/development of solutions | 5 |
+| PO6 – The engineer and society | 1 |
+| PO9 – Individual and team work | 5 |
+| PO10 – Communication | 4 |
+| PO11 – Project management and finance | 5 |
+| **Total question-PO tags** | **54** |
+
+### RBT-wise Distribution
+
+| RBT Level | No. of Questions |
+|---|---|
+| L1 – Remember | 3 |
+| L2 – Understand | 14 |
+| L3 – Apply | 7 |
+| L4 – Analyze | 3 |
+| L5 – Evaluate | 2 |
+| L6 – Create | 1 |
+| **Total** | **30** |
+
+---
+
+### Exam Tips
+
+- Draw a neat organisation chart wherever a structure is discussed; it usually earns marks.
+- For numerical questions (Q23, Q25), show every step of the calculation, not just the final answer.
+- For L4–L6 questions, end with a clear conclusion or recommendation and justify it.
+- Use one real-world example per concept to strengthen L1 and L2 answers.
